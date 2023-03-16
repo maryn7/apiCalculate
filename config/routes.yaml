@@ -1,3 +1,9 @@
 #index:
 #    path: /
 #    controller: App\Controller\DefaultController::index
+app_calculator:
+    path: '/{operation}/{operatorA}/{operatorB}'
+    controller: App\Controller\calculadoraController::calculadora
+    # requirements:
+    #     operatorA: '\d+'
+    #     operatorB: '\d+'
